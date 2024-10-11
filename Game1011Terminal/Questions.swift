@@ -179,6 +179,55 @@ func beginGame(){
             print("Incorrect")
             exit(0)
         }}
+    print("what is my favorite book")
+    print("The-false-prince,Wrath-of-the-Storm,Scythe,The-five-kingdoms")
+    let answer20 = readLine()
+    if let answer20 = answer20{
+        if answer20 == "The-five-kingdoms"{
+            print("Correct albiet most of this are true answers")
+        }else{
+            print("Incorrect")
+            exit(0)
+        }}
+    print("What gen Iphone do I have. Hint it has a home button and there are no Iphone + in the answer")
+    print("Iphone7, Iphone9,Iphone8,Iphone11 etc")
+    let answer21 = readLine()
+    if let answer21 = answer21{
+        if answer21 == "Iphone8"{
+            print("Correct")
+        }else{
+            print("Incorrect")
+            exit(0)
+        }}
+    print("How many hours do I have in Terreria")
+    print("100+, 200+,300+,400+,500+,600+,700+,800+,1000+")
+    let answer22 = readLine()
+        if let answer22 = answer22{
+            if answer22 == "1000+"{
+                print("Correct 400 hours on switch. 300 On tmodloader on PC, and 300 on base game on PC")
+            }else{
+                print("wrong its alot")
+                exit(0)
+            }}
+    print("Who was the first youtuber I ever watched?")
+    print("DanTDM,PopularMMOS,InTheLittleWood,StampyLongNose,ThePack,SkyDoesMinecraft")
+    let answer23 = readLine()
+    if let answer23 = answer23{
+        if answer23 == "DanTDM"{
+            print("Correct it was his cloning video from 2011 or 2013")
+        }else{
+            print("Incorrect")
+            exit(0)
+        }}
+    print("Is coding fun yes or no")
+    let answer24 = readLine()
+    if let answer24 = answer24{
+        if answer24 == "Yes"{
+            print("Correct")
+        }else{
+            print("Fair")
+            exit(0)
+        }}
         print("Final question")
     print("Is this the final question")
     let answer100 = readLine()

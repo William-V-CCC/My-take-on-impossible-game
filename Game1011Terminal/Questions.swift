@@ -75,7 +75,7 @@ func beginGame(){
     print("Capitialize the start of this one")
     let answer8 = readLine()
     if let answer8 = answer8{
-        if answer8 == "Terreria"{
+        if answer8 == "Terraria"{
             print("Correct")
         }else{
             print("What minecraft nononono")
@@ -122,7 +122,7 @@ func beginGame(){
     print("Capitalize the start of each letter")
     let answer13 = readLine()
     if let answer13 = answer13{
-        if answer13 == "League-Of-Legends-Rocket-League"{
+        if answer13.contains("League-Of-Legends-Rocket-League"){
             print("Correct")
         }else{
             print("Incorrect")
@@ -210,7 +210,7 @@ func beginGame(){
                 exit(0)
             }}
     print("Who was the first youtuber I ever watched?")
-    print("DanTDM,PopularMMOS,InTheLittleWood,StampyLongNose,ThePack,SkyDoesMinecraft")
+    print("DanTDM,PopularMMOS,InTheLittleWood,StampyLongNose,ThePack,SkyDoesMinecraft,Sethbling,CavemanFilms,Antvenom,Jacksepticeye,Markiplier,IBallisticSquid")
     let answer23 = readLine()
     if let answer23 = answer23{
         if answer23 == "DanTDM"{
@@ -222,7 +222,7 @@ func beginGame(){
     print("Is coding fun yes or no")
     let answer24 = readLine()
     if let answer24 = answer24{
-        if answer24 == "Yes"{
+        if answer24 == "yes"{
             print("Correct")
         }else{
             print("Fair")
